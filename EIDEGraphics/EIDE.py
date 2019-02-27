@@ -23,14 +23,14 @@
 #     Prerequisites: Python 2.7; pygame 1.9.1                               #
 #                                                                           #
 #     Author: Vicente Francisco (EIDEGraphics, S.L.)                        #
-#     email: magf558128m@gmail.com                                          #
+#     email: mafg558128m@gmail.com                                          #
 #                                                                           #
 #     Date: February, 2019                                                  #
 #                                                                           #
 #                                                                           #
 #                                                                           #
 # Copyright (c) 2019. Vicente Francisco (EIDEGraphics, S.L.;                #
-# magf558128m@gmail.com)                                                    #
+# mafg558128m@gmail.com)                                                    #
 #                                                                           #
 # Permission is hereby granted, free of charge, to any person obtaining a   #
 # copy of this software and associated documentation files (the “           #
