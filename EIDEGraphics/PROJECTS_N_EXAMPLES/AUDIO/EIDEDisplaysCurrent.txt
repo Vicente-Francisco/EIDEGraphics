@@ -1,0 +1,155 @@
+#
+[1]
+displayType = VBareLEDBar
+DisplayChannel =1
+DisplaySize =380
+DisplayPosition = 140, 350
+DisplayTopOfScale =1
+#
+[2]
+displayType = VBareLEDBar
+DisplayChannel =2
+DisplaySize = 380
+DisplayPosition = 170, 350
+DisplayTopOfScale =1
+#
+[3]
+displayType = VBareLEDBar
+DisplayChannel =3
+DisplaySize = 380
+DisplayPosition = 200, 350
+DisplayTopOfScale =1
+#
+[4]
+displayType = VBareLEDBar
+DisplayChannel =4
+DisplaySize = 380
+DisplayPosition = 230, 350
+DisplayTopOfScale =1
+#
+[5]
+displayType = VBareLEDBar
+DisplayChannel =5
+DisplaySize = 380
+DisplayPosition = 260, 350
+DisplayTopOfScale =1
+#
+[6]
+displayType = VBareLEDBar
+DisplayChannel =6
+DisplaySize = 380
+DisplayPosition = 290, 350
+DisplayTopOfScale =1
+#
+[7]
+displayType = VBareLEDBar
+DisplayChannel =7
+DisplaySize = 380
+DisplayPosition = 320, 350
+DisplayTopOfScale =1
+#
+[8]
+displayType = VBareLEDBar
+DisplayChannel =8
+DisplaySize = 380
+DisplayPosition = 350, 350
+DisplayTopOfScale =1
+#
+[9]
+displayType = VBareLEDBar
+DisplayChannel =9
+DisplaySize = 380
+DisplayPosition = 380, 350
+DisplayTopOfScale =1
+#
+[10]
+displayType = VBareLEDBar
+DisplayChannel =10
+DisplaySize = 380
+DisplayPosition = 410, 350
+DisplayTopOfScale =1
+#
+[11]
+displayType = VBareLEDBar
+DisplayChannel =1
+DisplaySize =380
+DisplayPosition = 560, 350
+DisplayTopOfScale =1
+#
+[12]
+displayType = VBareLEDBar
+DisplayChannel =2
+DisplaySize = 380
+DisplayPosition = 590, 350
+DisplayTopOfScale =1
+#
+[13]
+displayType = VBareLEDBar
+DisplayChannel =3
+DisplaySize = 380
+DisplayPosition = 620, 350
+DisplayTopOfScale =1
+#
+[14]
+displayType = VBareLEDBar
+DisplayChannel =4
+DisplaySize = 380
+DisplayPosition = 650, 350
+DisplayTopOfScale =1
+#
+[15]
+displayType = VBareLEDBar
+DisplayChannel =5
+DisplaySize = 380
+DisplayPosition = 680, 350
+DisplayTopOfScale =1
+#
+[16]
+displayType = VBareLEDBar
+DisplayChannel =6
+DisplaySize = 380
+DisplayPosition = 710, 350
+DisplayTopOfScale =1
+#
+[17]
+displayType = VBareLEDBar
+DisplayChannel =7
+DisplaySize = 380
+DisplayPosition = 740, 350
+DisplayTopOfScale =1
+#
+[18]
+displayType = VBareLEDBar
+DisplayChannel =8
+DisplaySize = 380
+DisplayPosition = 770, 350
+DisplayTopOfScale =1
+#
+[19]
+displayType = VBareLEDBar
+DisplayChannel =9
+DisplaySize = 380
+DisplayPosition = 800, 350
+DisplayTopOfScale =1
+#
+[20]
+displayType = VBareLEDBar
+DisplayChannel =10
+DisplaySize = 380
+DisplayPosition = 830, 350
+DisplayTopOfScale =1
+#
+[21]
+displayType = vumeter
+DisplayChannel =11
+DisplaySize = 298
+DisplayPosition = 140, 50
+DisplayTopOfScale =1
+#
+[22]
+displayType = vumeter
+DisplayChannel =12
+DisplaySize = 298
+DisplayPosition = 560, 50
+DisplayTopOfScale =1
+

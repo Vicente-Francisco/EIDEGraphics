@@ -1,0 +1,82 @@
+#
+[1]
+ChannelTitle = Canal 1
+channelUnits = MPH
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0.5
+channelpercentWarning = 50
+channelpercentAlarm = 95
+channelDecimals = 0
+#
+[2]
+ChannelTitle = Canal 2
+channelUnits = K
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 85
+channelpercentAlarm = 95
+channelDecimals = 0.000
+#
+[3]
+ChannelTitle = FPS
+channelUnits = FPS
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 6
+channelpercentAlarm = 15
+channelDecimals = 0.000
+#
+[4]
+ChannelTitle = Ciclo
+channelUnits = mS
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 70
+channelpercentAlarm = 85
+channelDecimals = 0.000
+#
+[5]
+ChannelTitle = Canal 1
+channelUnits = C
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0.5
+channelpercentWarning = 70
+channelpercentAlarm = 85
+channelDecimals = 0.000
+#
+[6]
+ChannelTitle = Canal 2
+channelUnits = Esc
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 70
+channelpercentAlarm = 85
+channelDecimals = 0.000
+#
+[7]
+ChannelTitle = FPS
+channelUnits = FPS
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 70
+channelpercentAlarm = 85
+channelDecimals = 0.000
+#
+[8]
+ChannelTitle = Ciclo
+channelUnits = FPS
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 0
+channelpercentAlarm = 0
+channelDecimals = 0.000
+
+

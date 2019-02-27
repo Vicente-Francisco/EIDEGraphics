@@ -1,0 +1,197 @@
+# "Very simple Display"
+[Basic]
+# Reference size(pixels)
+referenceSize = 700
+referenceSizeV = 550
+# Texts offsets (DX, DY, corner). Corner: TL, TR, BR, BL
+ofsOrdinal = 2, 15, TL
+ofsNative = 30, 15, TR
+ofsTitle = 150, 330, TL
+ofsUnits = 260, 490, TL
+ofsReadout = 140, 80, TL
+# Texts sizes
+sizeOrdinal = 0
+sizeNative = 0
+sizeTitle = 0
+sizeUnits = 60
+sizeReadout = 300
+# Background image file
+backgroundImage = BLACK.JPG
+# Colours
+bckgColor = 0, 0, 0
+textColor = 255, 255, 255
+#
+[vumeter]
+# Reference size(pixels)
+referenceSize = 1222
+referenceSizeV = 1222
+# Texts offsets (DX, DY, corner). Corner: TL, TR, BR, BL
+ofsOrdinal = 12, 15, TL
+ofsNative = 25, 15, TR
+ofsTitle = 10, 75, BL
+ofsUnits = 150, 75, BL 
+ofsReadout = 250, 150, BR
+# Texts sizes
+sizeOrdinal = 0
+sizeNative = 0
+sizeTitle = 0
+sizeUnits = 0
+sizeReadout = 0
+# Background image file
+backgroundImage = RPM.png
+# Colours
+bckgColor = 0, 0, 0
+textColor = 255, 255, 255
+#
+[vumeterSpecial]
+# Needle geometrics and color
+needleCenter = 611, 611, BR
+initialAngle = 230
+finalAngle = -50
+needleLength1 = 560
+needleWidth1 = 15
+needleColor1 = 255, 0, 0
+needleLength2 = 0
+needleWidth2 = 3
+needleColor2 = 255, 0, 0
+# NeedleMovement
+needleSpeed = 5000
+needleViscose = 1.7
+# Needle "phisical" stops
+needlePhStLeft = 230
+needlePhStRight = -50
+#
+[quadrant]
+# Reference size(pixels)
+referenceSize = 1222
+referenceSizeV = 1222
+# Texts offsets (DX, DY, corner). Corner: TL, TR, BR, BL
+ofsOrdinal = 12, 15, TL
+ofsNative = 25, 15, TR
+ofsTitle = 10, 75, BL
+ofsUnits = 150, 75, BL 
+ofsReadout = 250, 150, BR
+# Texts sizes
+sizeOrdinal = 0
+sizeNative = 0
+sizeTitle = 0
+sizeUnits = 0
+sizeReadout = 0
+# Background image file
+backgroundImage = SPEEDOMETER.jpg
+# Colours
+bckgColor = 0, 0, 0
+textColor = 255, 255, 255
+#
+[quadrantSpecial]
+# Needle geometrics and color
+needleCenter = 611, 611, BR
+initialAngle = 230
+finalAngle = -50
+needleLength1 = 560
+needleWidth1 = 13
+needleColor1 = 255, 0, 0
+needleLength2 = 0
+needleWidth2 = 3
+needleColor2 = 255, 0, 0
+# NeedleMovement
+needleSpeed = 3000
+needleViscose = 1.4
+# Needle "phisical" stops
+needlePhStLeft = 230
+needlePhStRight = -50
+[HLEDBar]
+# Reference size(pixels)
+referenceSize = 400
+referenceSizeV = 50
+# Texts offsets (DX, DY, corner). Corner: TL, TR, BR, BL
+ofsOrdinal = 5, 5, TL
+ofsNative = 15, 5, TR
+ofsTitle = 5, 15, TL
+ofsUnits = 5, 27, TL 
+ofsReadout = 5, 40, TL
+# Texts sizes
+sizeOrdinal = 8
+sizeNative = 8
+sizeTitle = 8
+sizeUnits = 8
+sizeReadout = 8
+# Background image file
+backgroundImage = FONDO_HLED.jpg
+# Colours
+bckgColor = 0, 0, 0
+textColor = 255, 255, 255
+#
+[HLEDBarSpecific]
+# LEDs bar position, dimensions and colours
+LEDBarPosition = 39, 32, TL
+LEDBARLength = 350
+LEDsQuantity = 0
+LEDH = 5
+LEDV = 8
+interLED = 1
+baseColour = 0, 255, 0
+warningColour = 255, 255, 0
+alarmColour = 255, 0, 0
+offColour = 100,100,100
+# Colour percentages
+percentWarning = 50
+percentAlarm = 70
+#
+[HbareLEDBarSpecific]
+# Drawn surface parameters
+frame = 3
+contourWidth = 1
+roundCorner = 3
+backColour = 0,0,0
+frameColour = 50, 50, 50
+edgeColour = 150, 150, 150
+#
+[VLEDBar]
+# Reference size(pixels)
+referenceSize = 50
+referenceSizeV = 400
+# Texts offsets (DX, DY, corner). Corner: TL, TR, BR, BL
+ofsOrdinal = 5, 5, TL
+ofsNative = 15, 5, TR
+ofsTitle = 5, 12, BL
+ofsUnits = 5, 20, BL 
+ofsReadout = 5, 30, BL
+# Texts sizes
+sizeOrdinal = 5
+sizeNative = 5
+sizeTitle = 5
+sizeUnits = 5
+sizeReadout = 5
+# Background image file
+backgroundImage = FONDO_VLED.jpg
+# Colours
+bckgColor = 0, 0, 0
+textColor = 255, 255, 255
+#
+[VLEDBarSpecific]
+# LEDs bar position, dimensions and colours
+LEDBarPosition = 6, 38, BL
+LEDBARLength = 0
+LEDsQuantity = 10
+LEDH = 180
+LEDV = 1
+interLED =1
+baseColour = 255, 0, 0
+warningColour = 255, 255, 0
+alarmColour = 0, 255, 0
+offColour = 100,100,100
+# Colour percentages
+percentWarning = 50
+percentAlarm = 75
+#
+[VBareLEDBarSpecific]
+# Drawn surface parameters
+frame = 0
+contourWidth = 0
+roundCorner = 0
+backColour = 255, 255, 255
+frameColour = 50, 50, 50
+edgeColour = 150, 150, 150
+
+

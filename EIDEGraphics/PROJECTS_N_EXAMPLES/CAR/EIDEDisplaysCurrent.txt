@@ -1,0 +1,43 @@
+#
+[1]
+displayType = vumeter
+DisplayChannel =2
+DisplaySize =300
+DisplayPosition = 15, 220
+DisplayTopOfScale =40
+#
+[2]
+displayType = quadrant
+DisplayChannel =1
+DisplaySize = 300
+DisplayPosition = 680, 220
+DisplayTopOfScale =140
+#
+[3]
+displayType = Basic
+DisplayChannel =1
+DisplaySize = 200
+DisplayPosition = 400, 150
+DisplayTopOfScale =1
+#
+[4]
+displayType = HBareLEDBar
+DisplayChannel =5
+DisplaySize = 200
+DisplayPosition = 360, 550
+DisplayTopOfScale = 100
+#
+[5]
+displayType = VBareLEDBar
+DisplayChannel =3
+DisplaySize = 64
+DisplayPosition = 393, 390
+DisplayTopOfScale =100
+#
+[6]
+displayType = VBareLEDBar
+DisplayChannel =4
+DisplaySize = 66
+DisplayPosition = 589, 393
+DisplayTopOfScale =100
+

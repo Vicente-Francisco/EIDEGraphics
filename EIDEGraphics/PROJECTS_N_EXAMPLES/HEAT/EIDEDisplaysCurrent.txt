@@ -1,0 +1,68 @@
+#
+[1]
+displayType = Basic
+DisplayChannel = 1
+DisplaySize =250
+DisplayPosition = 700, 100
+DisplayTopOfScale =40
+#
+#
+[2]
+displayType = Basic
+DisplayChannel = 2
+DisplaySize =250
+DisplayPosition = 700, 40
+DisplayTopOfScale =40
+#
+#
+[3]
+displayType = Basic
+DisplayChannel = 3
+DisplaySize =150
+DisplayPosition = 180, 120
+DisplayTopOfScale =40
+#
+#
+[4]
+displayType = Basic
+DisplayChannel = 4
+DisplaySize = 150
+DisplayPosition = 60, 240
+DisplayTopOfScale =40
+#
+[5]
+displayType = Basic
+DisplayChannel = 5
+DisplaySize = 150
+DisplayPosition = 300, 300
+DisplayTopOfScale =40
+#
+[6]
+displayType = Basic
+DisplayChannel = 6
+DisplaySize = 100
+DisplayPosition = 390, 590
+DisplayTopOfScale =40
+#
+[10]
+displayType = quadrant
+DisplayChannel =8
+DisplaySize = 150
+DisplayPosition = 10, 450
+DisplayTopOfScale =500
+#
+[11]
+displayType = quadrant
+DisplayChannel =9
+DisplaySize = 150
+DisplayPosition = 650, 350
+DisplayTopOfScale =50
+#
+[12]
+displayType = quadrant
+DisplayChannel =10
+DisplaySize = 150
+DisplayPosition = 500, 350
+DisplayTopOfScale =50
+#
+

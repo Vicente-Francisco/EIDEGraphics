@@ -1,0 +1,103 @@
+#
+[1]
+ChannelTitle = Temp
+channelUnits = C
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0.5
+channelpercentWarning = 70
+channelpercentAlarm = 85
+channelDecimals = 0
+#
+[2]
+ChannelTitle = Hr
+channelUnits = %
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 0
+channelpercentAlarm = 0
+channelDecimals = 0.0
+#
+[3]
+ChannelTitle = Temp
+channelUnits = C
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 20
+channelpercentAlarm = 50
+channelDecimals = 0.0
+#
+[4]
+ChannelTitle = Temp
+channelUnits = C
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 70
+channelpercentAlarm = 85
+channelDecimals = 0.0
+#
+[5]
+ChannelTitle = Temp
+channelUnits = C
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0.5
+channelpercentWarning = 70
+channelpercentAlarm = 85
+channelDecimals = 0.0
+#
+[6]
+ChannelTitle = Temp
+channelUnits = C
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 70
+channelpercentAlarm = 85
+channelDecimals = 0.0
+#
+[7]
+ChannelTitle = Temp
+channelUnits = C
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 70
+channelpercentAlarm = 85
+channelDecimals = 0.0
+#
+[8]
+ChannelTitle = P1
+channelUnits = A(x10)
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 0
+channelpercentAlarm = 0
+channelDecimals = 0
+
+#
+[9]
+ChannelTitle = P2
+channelUnits = A
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 70
+channelpercentAlarm = 85
+channelDecimals = 0
+#
+[10]
+ChannelTitle = P3
+channelUnits = A(x10)
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 0
+channelpercentAlarm = 0
+channelDecimals = 0
+
+

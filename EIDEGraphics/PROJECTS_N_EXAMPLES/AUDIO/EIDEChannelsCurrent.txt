@@ -1,0 +1,120 @@
+[1]
+ChannelTitle = Canal 1
+channelUnits = Units  1
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 0
+channelpercentAlarm = 0
+channelDecimals = 0.0
+#
+[2]
+ChannelTitle = Canal 2
+channelUnits = Units  2
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 0
+channelpercentAlarm = 0
+channelDecimals = 0.0
+#
+[3]
+ChannelTitle = Canal 3
+channelUnits = Units  3
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 0
+channelpercentAlarm = 0
+channelDecimals = 0.0
+#
+[4]
+ChannelTitle = Canal 4
+channelUnits = Units  4
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 0
+channelpercentAlarm = 0
+channelDecimals = 0.0
+#
+[5]
+ChannelTitle = Canal 5
+channelUnits = Units  5
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 0
+channelpercentAlarm = 0
+channelDecimals = 0.0
+#
+[6]
+ChannelTitle = Canal 6
+channelUnits = Units  6
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 0
+channelpercentAlarm = 0
+channelDecimals = 0.0
+#
+[7]
+ChannelTitle = Canal 7
+channelUnits = Units  7
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 0
+channelpercentAlarm = 0
+channelDecimals = 0.0
+#
+[8]
+ChannelTitle = Canal 8
+channelUnits = Units  8
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 0
+channelpercentAlarm = 0
+channelDecimals = 0.0
+#
+[9]
+ChannelTitle = Canal 9
+channelUnits = Units  9
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 0
+channelpercentAlarm = 0
+channelDecimals = 0.0
+#
+[10]
+ChannelTitle = Canal 10
+channelUnits = Units  10
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 0
+channelpercentAlarm = 0
+channelDecimals = 0.0
+#
+[11]
+ChannelTitle = RMS
+channelUnits = Units  10
+channelGain = 4
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 0
+channelpercentAlarm = 0
+channelDecimals = 0.0
+#
+[12]
+ChannelTitle = RMS
+channelUnits = Units  10
+channelGain = 4
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 0
+channelpercentAlarm = 0
+channelDecimals = 0.0
+

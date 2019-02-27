@@ -1,0 +1,18 @@
+# EIDE system general parameters
+[EIDESystem]
+# Platform: windows, linux
+platform = windows
+#
+# Text font and 'normal' size.
+font = freesansbold.ttf
+textStandardSize = 200
+#
+# Significative figures (displays; maximum)
+sigFigures = 4
+#
+language = english
+#
+# Project to load (folder. ../EIDEGraphics/EIDEGraphics/PROJECTS_N_EXAMPLES/)
+project = MANUAL
+
+
