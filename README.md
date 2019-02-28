@@ -1,14 +1,16 @@
-### EIDEGraphics
+![alt text](https://user-images.githubusercontent.com/48054293/53554351-ce33f200-3b3f-11e9-9bca-560c1cd5d115.jpg)
 
 
+![alt text](https://user-images.githubusercontent.com/48054293/53554427-ff142700-3b3f-11e9-9f86-146dffdbfa57.png)
+EIDEGraphis library powered user synoptic.
 
 ###### What is EIDEGraphics
 EIDEGraphics is a python library that helps showing numeric values in big characters, in the form of gauge indicators and/or as LED's bars. User may select every indicator size and position inside the window. 
 
 Indicators are highly parametrizable, so quite different looks of every indicator may be achieved. Parametrization is made by means of plain text files and graphic (‘jpg’, ‘bmp’, …) files; no coding is needed at all. Seven different indicators are pre-configured and ready to use.
 
-
-
+![alt text](https://user-images.githubusercontent.com/48054293/53554387-e3a91c00-3b3f-11e9-80ae-563937bcb762.png)
+EIDEGraphis car like panel.
 
 The whole window background is also user selectable so by using EIDEGraphics one can build synoptics or big panels showing what the user needs in many different ways. EIDEGraphics downloads itself with a set of examples to guide the user and to show EIDEGraphics capabilities.
 
@@ -30,7 +32,13 @@ There are many ways of using EIDEGraphics:
 ##### Examples.
 EIDEGraphics includes as many examples as subfolders in the ‘PROJECTS_N_EXAMPLES’ folder. Just modify (../EIDEGraphics/EIDEGraphics/)‘EIDESystem.txt' 'project' field entering the folder name you want to run and launch ‘test.py’.
 
+![alt text](https://user-images.githubusercontent.com/48054293/53554403-f02d7480-3b3f-11e9-9faf-e2eea799b3f2.png)
+EIDEGraphis built in (ready to use) displays.
 
+
+
+![pantalla_audio](https://user-images.githubusercontent.com/48054293/53554435-089d8f00-3b40-11e9-8aed-3fd54e8108c4.png)
+EIDEGraphis powered audio analyzer window.
 
 ##### Prerequisites.
 Python 2.7
