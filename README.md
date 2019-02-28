@@ -1,8 +1,11 @@
-![alt text](https://user-images.githubusercontent.com/48054293/53554351-ce33f200-3b3f-11e9-9bca-560c1cd5d115.jpg)
 
+<img src="https://user-images.githubusercontent.com/48054293/53554351-ce33f200-3b3f-11e9-9bca-560c1cd5d115.jpg" width="480" height="100">
 
-![alt text](https://user-images.githubusercontent.com/48054293/53554427-ff142700-3b3f-11e9-9f86-146dffdbfa57.png)
-EIDEGraphis library powered user synoptic.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/48054293/53554427-ff142700-3b3f-11e9-9f86-146dffdbfa57.png" width="695"   height="480">
+  
+  EIDEGraphis library powered user synoptic.
+</p>
 
 ###### What is EIDEGraphics
 EIDEGraphics is a python library that helps showing numeric values in big characters, in the form of gauge indicators and/or as LED's bars. User may select every indicator size and position inside the window. 
