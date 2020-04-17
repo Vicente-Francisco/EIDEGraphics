@@ -86,7 +86,7 @@ class layerManager(object):
                 superficies = i[1:]
                 # superficies = (displayX, surfaceJ, surfaceRectJ)
                 for j in superficies:
-                    if j[0]<>0:         # "0": supressed display
+                    if j[0]!=0:         # "0": supressed display
                         self.updateList.append(j[2])
 
 
@@ -183,7 +183,7 @@ class windowManager(object):
                     if j[0] == i:
                         superficies = j[1:]
                         for k in superficies:
-                            if k[0]<>0:         # "0": supressed display
+                            if k[0]!=0:         # "0": supressed display
                                 self.ventanaPygame.blit(k[1], k[2])
 
         self.windowUpdate()

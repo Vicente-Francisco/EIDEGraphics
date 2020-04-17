@@ -1,0 +1,35 @@
+#
+[1]
+displayType = quadrant
+DisplayChannel =1
+DisplaySize =250
+DisplayPosition = 15, 15
+DisplayTopOfScale =60
+#
+[2]
+displayType = quadrant
+DisplayChannel =2
+DisplaySize = 250
+DisplayPosition = 280, 15
+DisplayTopOfScale =60
+#
+[3]
+displayType = quadrant
+DisplayChannel =3
+DisplaySize = 250
+DisplayPosition = 545, 15
+DisplayTopOfScale =60
+#
+[4]
+displayType = quadrant
+DisplayChannel =4
+DisplaySize = 250
+DisplayPosition = 810, 15
+DisplayTopOfScale =60
+#
+[5]
+displayType = quadrant
+DisplayChannel =5
+DisplaySize = 250
+DisplayPosition = 15, 280
+DisplayTopOfScale =60

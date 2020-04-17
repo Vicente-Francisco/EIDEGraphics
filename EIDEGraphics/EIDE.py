@@ -8,7 +8,7 @@
 #     translating numeric magnitudes to big format displays and/or graphic  #
 #     elements (gauge indicators, LED's bar displays).                      #
 #                                                                           #
-#    Apart from this file/module (‘EIDE.py’), the libray is made up of the  #
+#    Apart from this file/module (‘EIDE.py’), the libray contains the       #
 #    following modules:                                                     #
 #         EIDESystem                                                        #
 #         EIDEDisplaysManager                                               #
@@ -18,19 +18,19 @@
 #         EIDEStatistics                                                    #
 #         EIDEGUtils                                                        #
 #                                                                           #
-#     Fully operative multiplatform version – Release 0.0                   #
+#     Fully operative multiplatform version – Release 1.0                   #
 #                                                                           #
-#     Prerequisites: Python 2.7; pygame 1.9.1                               #
+#     Prerequisites: Python 3.8; pygame 1.9.4                               #
 #                                                                           #
-#     Author: Vicente Francisco (EIDEGraphics, S.L.)                        #
-#     email: mafg558128m@gmail.com                                          #
+#     Author: Clave Ingenieros, S.L.                                        #
+#     email: vicente.fombellida@claveingenieros.es                          #
 #                                                                           #
-#     Date: February, 2019                                                  #
+#     Date: April, 2020                                                     #
 #                                                                           #
 #                                                                           #
 #                                                                           #
-# Copyright (c) 2019. Vicente Francisco (EIDEGraphics, S.L.;                #
-# mafg558128m@gmail.com)                                                    #
+# Copyright (c) 2020. Clave Ingenieros, S.L.;                               #
+# (vicente.fombellida@claveingenieros.es)                                   #
 #                                                                           #
 # Permission is hereby granted, free of charge, to any person obtaining a   #
 # copy of this software and associated documentation files (the “           #
@@ -75,7 +75,7 @@ and
 '../EIDEGraphics/PROJECTS_N_EXAMPLES/userProject/EIDEDisplaysTypes.txt')
 .
 
-5) Initiates all the EIDEGraphics modules. Namelly:
+5) Initiates all the EIDEGraphics modules. Namely:
     EIDESystem
     EIDEDisplaysManager
     EIDEChannesManager
@@ -93,7 +93,8 @@ EIDEGUser = EIDE.EIDEGraphics(timer_value)
 ...
 
 User loop:
-    /// User own code (i.e.: ADC). User places data to be shwon in 'currentValues' list
+    /// User own code (i.e.: ADC). User places data to be shwon in
+    'currentValues' list
 
     EIDEGUser.EIDEGLoop(currentValues)
 
@@ -107,7 +108,8 @@ Alternativelly you can catch the 'EIDEError' (see code at the end of
 """
 
 
-import sys
+
+import sys, os, os.path
 
 import time
 import pygame
@@ -126,6 +128,11 @@ class EIDEException(Exception):
 
 ######################## EIDEException end ########################
 
+# Catch working directory ('../EIDEGraphics') and append it to
+# 'sys.path'
+cwd = os.getcwd()
+head = os.path.split(cwd)[0]
+sys.path.append(head)
 
 ######################## EIDEGraphics ############################
 class EIDEGraphics(object):
@@ -161,6 +168,9 @@ class EIDEGraphics(object):
 # EIDEGraphics ############################
     def __init__ (self, temporizador):
         """ Init EIDEGraphics itself """
+        # Change current directory to "../EIDEGraphics"
+        dirAnterior = os.getcwd()
+        os.chdir(os.path.join(dirAnterior,"EIDEGraphics"))
 
         # 1) Open log file ('EIDELog.txt'). First line. 
         try:
@@ -210,7 +220,6 @@ class EIDEGraphics(object):
             self.EIDEGLog(line)
             # Traspass system parameters values to 'EIDESystem' (class 'system')
             EIDESystem.systemD.setProject(retorno)
-
         except Exception as erroron:
             x = erroron.args[0]
             self.EIDEGAbort(x)
@@ -280,6 +289,9 @@ class EIDEGraphics(object):
         # 7) Close log file ('EIDELog.txt')
         self.ins.close()
 
+        # Restore current directory at entrance of "__init__"
+        os.chdir(dirAnterior)
+
             
 # EIDEGraphics ############################
     def EIDEGLog(self, line):
@@ -300,10 +312,12 @@ class EIDEGraphics(object):
         self.EIDEGLog(line)
         self.ins.close()
         
-        raise EIDEException(message)
+        print (message)
+##        raise EIDEException(message)
 
 
 # EIDEGraphics ############################
+##    def show(self, valores):
     def EIDEGLoop(self, valores):
         """ Method to be called every time user wants to update screen """
 
@@ -342,5 +356,4 @@ class EIDEGraphics(object):
         velocidad.parameters('end')
 
 ######################## EIDEGraphics end ########################
-
 

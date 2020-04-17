@@ -52,7 +52,7 @@ leave tham as they are (1), the project to execute is taken from
     ('../EIDEGraphics/PROJECTS_N_EXAMPLES/YOUR_PROJECT) to check/develop
     your own project using EIDEGraphics. Such a case just modify
     'EIDESystem.txt' 'project' field entering your project name and the
-    file 'currentValues = example.simulacion()' below with the suitable
+    line 'currentValues = example.simulacion()' below with the suitable
     module.instrucion (or object method or whatever).
 
  2) You use a more sophisticated arquitecture: your project resides somewhere
@@ -92,6 +92,12 @@ projectPath = os.path.join(os.path.join(head, 'PROJECTS_N_EXAMPLES'), project)
 sys.path.append(projectPath)
 import example              # User program code mock.
 
+# Catch subworking directory ('../EIDE'), append it to 'sys.path'
+# ando leave it as "current working directory"
+cwd = os.getcwd()
+head = os.path.split(cwd)[0]
+os.chdir(head)
+sys.path.append(head)
 
 
 #############
@@ -116,7 +122,7 @@ try:
 except Exception as herror:
     # An error (probably a bad configuration file contents) has happened
     print ('*' * len(herror.args[0]))
-    print herror.args[0]
+    print (herror.args[0])
     print ('*' * len(herror.args[0]))
     pygame.quit()   # Quits pygame
     sys.exit()      # Quit module

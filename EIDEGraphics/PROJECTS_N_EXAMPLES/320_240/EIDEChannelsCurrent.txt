@@ -1,0 +1,102 @@
+#
+[1]
+ChannelTitle = RMS
+channelUnits = A
+channelGain = 0.5
+channelZero = 0
+channelLastReadout = 0.5
+channelpercentWarning = 70
+channelpercentAlarm = 85
+channelDecimals = 0
+#
+[2]
+ChannelTitle = RMS
+channelUnits = A
+channelGain = 0.5
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 0
+channelpercentAlarm = 0
+channelDecimals = 0.0
+#
+[3]
+ChannelTitle = Ciclo
+channelUnits = mS
+channelGain = 0.5
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 20
+channelpercentAlarm = 50
+channelDecimals = 0
+#
+[4]
+ChannelTitle = Ciclo
+channelUnits = mS
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 70
+channelpercentAlarm = 85
+channelDecimals = 0
+#
+[5]
+ChannelTitle = Canal 5
+channelUnits = C
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0.5
+channelpercentWarning = 70
+channelpercentAlarm = 85
+channelDecimals = 0.0
+#
+[6]
+ChannelTitle = Boiler
+channelUnits = Deg
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 70
+channelpercentAlarm = 85
+channelDecimals = 0
+#
+[7]
+ChannelTitle = FPS
+channelUnits = FPS
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 70
+channelpercentAlarm = 85
+channelDecimals = 0
+#
+[8]
+ChannelTitle = Ciclo
+channelUnits = FPS
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 0
+channelpercentAlarm = 0
+channelDecimals = 0.0
+#
+[9]
+ChannelTitle = Boiler
+channelUnits = Deg
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 70
+channelpercentAlarm = 85
+channelDecimals = 0.0
+#
+[10]
+ChannelTitle = RMS
+channelUnits = RMS
+channelGain = 1
+channelZero = 0
+channelLastReadout = 0
+channelpercentWarning = 0
+channelpercentAlarm = 0
+channelDecimals = 0.0
+
+

@@ -13,6 +13,6 @@ sigFigures = 4
 language = english
 #
 # Project to load (folder. ../EIDEGraphics/EIDEGraphics/PROJECTS_N_EXAMPLES/)
-project = MANUAL
+project = 480_320
 
 

@@ -221,7 +221,7 @@ class indicator(object):
     def createSurf10(self):
         """ Create layer 10 surface and send it to layerManager """
         # SurfaceA = plain background
-        self.surfaceA = pygame.transform.scale(self.background,
+        self.surfaceA = pygame.transform.smoothscale(self.background,
             self.DisplayActualSize)
 
         self.surfaceA = self.surfaceA.convert()
@@ -769,8 +769,8 @@ class HLEDBar(indicator):
 
         # 2) Use warning and alarm percents either from display type or
         # channel data
-        if self.canal.channelPercentWarning <> 0 or\
-        self.canal.channelPercentAlarm <> 0:
+        if self.canal.channelPercentWarning != 0 or\
+        self.canal.channelPercentAlarm != 0:
             # From channel 
             self.warningLimit = self.canal.channelPercentWarning
             self.alarmLimit = self.canal.channelPercentAlarm
@@ -1112,7 +1112,7 @@ class VLEDBar(indicator):
             self.colouredLED[counter].fill(self.coloursList[counter])
 
         # 2) Use warning and alarm percents either from display type or channel data
-        if self.canal.channelPercentWarning <> 0 or self.canal.channelPercentAlarm <> 0:
+        if self.canal.channelPercentWarning != 0 or self.canal.channelPercentAlarm != 0:
             # From channel 
             self.warningLimit = self.canal.channelPercentWarning
             self.alarmLimit = self.canal.channelPercentAlarm

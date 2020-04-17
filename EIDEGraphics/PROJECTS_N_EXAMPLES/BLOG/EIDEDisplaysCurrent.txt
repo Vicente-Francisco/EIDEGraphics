@@ -1,0 +1,57 @@
+#
+[1]
+displayType = Basic
+DisplayChannel = 1
+DisplaySize = 356
+DisplayPosition = 30, 34
+DisplayTopOfScale = 80
+#
+[2]
+displayType = Basic
+DisplayChannel = 2
+DisplaySize = 356
+DisplayPosition = 30, 105
+DisplayTopOfScale = 80
+#
+[3]
+displayType = Basic
+DisplayChannel = 3
+DisplaySize = 356
+DisplayPosition = 30, 176
+DisplayTopOfScale = 80
+#
+[4]
+displayType = Basic
+DisplayChannel = 4
+DisplaySize = 356
+DisplayPosition = 30, 247
+DisplayTopOfScale = 80
+#
+[5]
+displayType = HBareLEDBar
+DisplayChannel = 1
+DisplaySize = 231
+DisplayPosition = 140, 43
+DisplayTopOfScale = 80
+#
+[6]
+displayType = HBareLEDBar
+DisplayChannel = 2
+DisplaySize = 231
+DisplayPosition = 140, 114
+DisplayTopOfScale = 80
+#
+[7]
+displayType = HBareLEDBar
+DisplayChannel = 3
+DisplaySize = 231
+DisplayPosition = 140, 185
+DisplayTopOfScale = 80
+#
+[8]
+displayType = HBareLEDBar
+DisplayChannel = 4
+DisplaySize = 231
+DisplayPosition = 140, 256
+DisplayTopOfScale = 80
+

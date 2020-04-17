@@ -12,25 +12,26 @@
 """
 
 Class 'EIDEParser'. It inherits from the class
-'ConfigParser.ConfigParser' (ConfigParser python library). Adds to
-ConfigParser.ConfigParser a 'bullet proof' method -'optionsListC'- to
+'configparser.configparser' (configparser python library). Adds to
+configparser.configparser a 'bullet proof' method -'optionsListC'- to
 filter out any inconsistency in the configuration ('*.txt') files.
 
 """
 
 import os.path
-import ConfigParser
+import configparser
+##import ConfigParser # python 2.7
 import EIDESystem
 
 
 ############################### EIDEParser #########################
-class EIDEParser(ConfigParser.ConfigParser):
+class EIDEParser(configparser.ConfigParser):
     """ Specific parser for EIDE 'txt' files """
 
 
 # EIDEParser #########################
     def __init__(self, path, fichero, parameters):
-        ConfigParser.ConfigParser.__init__(self)
+        configparser.ConfigParser.__init__(self)
 
         self.wholePath = os.path.join(path,fichero)
         self.read(self.wholePath)

@@ -1,0 +1,472 @@
+#
+[1]
+displayType = HBareLEDBar
+DisplayChannel =3
+DisplaySize =250
+DisplayPosition = 15, 15
+DisplayTopOfScale =1
+#
+[2]
+displayType = HBareLEDBar
+DisplayChannel =5
+DisplaySize = 250
+DisplayPosition = 15, 35
+DisplayTopOfScale =1
+#
+[3]
+displayType = HBareLEDBar
+DisplayChannel =8
+DisplaySize = 250
+DisplayPosition = 15, 55
+DisplayTopOfScale =1
+#
+[4]
+displayType = HBareLEDBar
+DisplayChannel =6
+DisplaySize = 250
+DisplayPosition = 15, 75
+DisplayTopOfScale =1
+#
+[5]
+displayType = HBareLEDBar
+DisplayChannel =8
+DisplaySize = 250
+DisplayPosition = 15, 95
+DisplayTopOfScale =1
+#
+[6]
+displayType = HBareLEDBar
+DisplayChannel =6
+DisplaySize = 250
+DisplayPosition = 15, 115
+DisplayTopOfScale =1
+#
+[7]
+displayType = HBareLEDBar
+DisplayChannel =3
+DisplaySize = 250
+DisplayPosition = 15, 135
+DisplayTopOfScale =1
+#
+[8]
+displayType = HBareLEDBar
+DisplayChannel =4
+DisplaySize = 250
+DisplayPosition = 15, 155
+DisplayTopOfScale =1
+#
+[9]
+displayType = HBareLEDBar
+DisplayChannel =2
+DisplaySize = 250
+DisplayPosition = 15, 175
+DisplayTopOfScale =1
+#
+[10]
+displayType = HBareLEDBar
+DisplayChannel =8
+DisplaySize = 250
+DisplayPosition = 15, 195
+DisplayTopOfScale =1
+#
+[11]
+displayType = HBareLEDBar
+DisplayChannel =6
+DisplaySize = 250
+DisplayPosition = 15, 215
+DisplayTopOfScale =1
+#
+[12]
+displayType = HBareLEDBar
+DisplayChannel =5
+DisplaySize = 250
+DisplayPosition = 15, 235
+DisplayTopOfScale =1
+#
+[13]
+displayType = HBareLEDBar
+DisplayChannel =5
+DisplaySize = 250
+DisplayPosition = 15, 255
+DisplayTopOfScale =1
+#
+[14]
+displayType = HBareLEDBar
+DisplayChannel =1
+DisplaySize = 250
+DisplayPosition = 15, 275
+DisplayTopOfScale =1
+#
+[15]
+displayType = HBareLEDBar
+DisplayChannel =8
+DisplaySize = 250
+DisplayPosition = 15, 295
+DisplayTopOfScale =1
+#
+[16]
+displayType = HBareLEDBar
+DisplayChannel =6
+DisplaySize = 250
+DisplayPosition = 15, 315
+DisplayTopOfScale =1
+#
+[17]
+displayType = HBareLEDBar
+DisplayChannel =4
+DisplaySize = 250
+DisplayPosition = 15, 335
+DisplayTopOfScale =1
+#
+[18]
+displayType = HBareLEDBar
+DisplayChannel =2
+DisplaySize = 250
+DisplayPosition = 15, 355
+DisplayTopOfScale =1
+#
+[19]
+displayType = HBareLEDBar
+DisplayChannel =4
+DisplaySize = 250
+DisplayPosition = 15, 375
+DisplayTopOfScale =1
+#
+[20]
+displayType = HBareLEDBar
+DisplayChannel =8
+DisplaySize = 250
+DisplayPosition = 15, 395
+DisplayTopOfScale =1
+#
+[21]
+displayType = HBareLEDBar
+DisplayChannel =7
+DisplaySize = 250
+DisplayPosition = 15, 415
+DisplayTopOfScale =1
+#
+[22]
+displayType = HBareLEDBar
+DisplayChannel =4
+DisplaySize = 250
+DisplayPosition = 15, 435
+DisplayTopOfScale =1
+#
+[23]
+displayType = HBareLEDBar
+DisplayChannel =5
+DisplaySize = 250
+DisplayPosition = 15, 455
+DisplayTopOfScale =1
+#
+[24]
+displayType = HBareLEDBar
+DisplayChannel =7
+DisplaySize = 250
+DisplayPosition = 15, 475
+DisplayTopOfScale =1
+#
+[25]
+displayType = HBareLEDBar
+DisplayChannel =3
+DisplaySize = 250
+DisplayPosition = 15, 495
+DisplayTopOfScale =1
+#
+[26]
+displayType = HBareLEDBar
+DisplayChannel =7
+DisplaySize = 250
+DisplayPosition = 15, 515
+DisplayTopOfScale =1
+#
+[27]
+displayType = HBareLEDBar
+DisplayChannel =2
+DisplaySize = 250
+DisplayPosition = 15, 535
+DisplayTopOfScale =1
+#
+[28]
+displayType = HBareLEDBar
+DisplayChannel =8
+DisplaySize = 250
+DisplayPosition = 15, 555
+DisplayTopOfScale =1
+#
+[29]
+displayType = HBareLEDBar
+DisplayChannel =7
+DisplaySize = 250
+DisplayPosition = 15, 575
+DisplayTopOfScale =1
+#
+[30]
+displayType = HBareLEDBar
+DisplayChannel =4
+DisplaySize = 250
+DisplayPosition = 15, 595
+DisplayTopOfScale =1
+#
+[31]
+displayType = HBareLEDBar
+DisplayChannel =2
+DisplaySize = 250
+DisplayPosition = 15, 615
+DisplayTopOfScale =1
+#
+[32]
+displayType = HBareLEDBar
+DisplayChannel =5
+DisplaySize = 250
+DisplayPosition = 15, 635
+DisplayTopOfScale =1
+#
+[33]
+displayType = VBareLEDBar
+DisplayChannel =5
+DisplaySize = 250
+DisplayPosition = 400, 15
+DisplayTopOfScale =1
+#
+#
+#
+[34]
+displayType = HBareLEDBar
+DisplayChannel =1
+DisplaySize =250
+DisplayPosition = 500, 15
+DisplayTopOfScale =1
+#
+[35]
+displayType = HBareLEDBar
+DisplayChannel =5
+DisplaySize = 250
+DisplayPosition = 500, 35
+DisplayTopOfScale =1
+#
+[36]
+displayType = HBareLEDBar
+DisplayChannel =8
+DisplaySize = 250
+DisplayPosition = 500, 55
+DisplayTopOfScale =1
+#
+[37]
+displayType = HBareLEDBar
+DisplayChannel =2
+DisplaySize = 250
+DisplayPosition = 500, 75
+DisplayTopOfScale =1
+#
+[38]
+displayType = HBareLEDBar
+DisplayChannel =1
+DisplaySize = 250
+DisplayPosition = 500, 95
+DisplayTopOfScale =1
+#
+[39]
+displayType = HBareLEDBar
+DisplayChannel =7
+DisplaySize = 250
+DisplayPosition = 500, 115
+DisplayTopOfScale =1
+#
+[40]
+displayType = HBareLEDBar
+DisplayChannel =8
+DisplaySize = 250
+DisplayPosition = 500, 135
+DisplayTopOfScale =1
+#
+[41]
+displayType = HBareLEDBar
+DisplayChannel =4
+DisplaySize = 250
+DisplayPosition = 500, 155
+DisplayTopOfScale =1
+#
+[42]
+displayType = HBareLEDBar
+DisplayChannel =2
+DisplaySize = 250
+DisplayPosition = 500, 175
+DisplayTopOfScale =1
+#
+[43]
+displayType = HBareLEDBar
+DisplayChannel =6
+DisplaySize = 250
+DisplayPosition = 500, 195
+DisplayTopOfScale =1
+#
+[44]
+displayType = HBareLEDBar
+DisplayChannel =8
+DisplaySize = 250
+DisplayPosition = 500, 215
+DisplayTopOfScale =1
+#
+[45]
+displayType = HBareLEDBar
+DisplayChannel =8
+DisplaySize = 250
+DisplayPosition = 500, 235
+DisplayTopOfScale =1
+#
+[46]
+displayType = HBareLEDBar
+DisplayChannel =5
+DisplaySize = 250
+DisplayPosition = 500, 255
+DisplayTopOfScale =1
+#
+[47]
+displayType = HBareLEDBar
+DisplayChannel =5
+DisplaySize = 250
+DisplayPosition = 500, 275
+DisplayTopOfScale =1
+#
+[48]
+displayType = HBareLEDBar
+DisplayChannel =2
+DisplaySize = 250
+DisplayPosition = 500, 295
+DisplayTopOfScale =1
+#
+[49]
+displayType = HBareLEDBar
+DisplayChannel =3
+DisplaySize = 250
+DisplayPosition = 500, 315
+DisplayTopOfScale =1
+#
+[50]
+displayType = HBareLEDBar
+DisplayChannel =3
+DisplaySize = 250
+DisplayPosition = 500, 335
+DisplayTopOfScale =1
+#
+[51]
+displayType = HBareLEDBar
+DisplayChannel =3
+DisplaySize = 250
+DisplayPosition = 500, 355
+DisplayTopOfScale =1
+#
+[52]
+displayType = HBareLEDBar
+DisplayChannel =2
+DisplaySize = 250
+DisplayPosition = 500, 375
+DisplayTopOfScale =1
+#
+[53]
+displayType = HBareLEDBar
+DisplayChannel =6
+DisplaySize = 250
+DisplayPosition = 500, 395
+DisplayTopOfScale =1
+#
+[54]
+displayType = HBareLEDBar
+DisplayChannel =7
+DisplaySize = 250
+DisplayPosition = 500, 415
+DisplayTopOfScale =1
+#
+[55]
+displayType = HBareLEDBar
+DisplayChannel =4
+DisplaySize = 250
+DisplayPosition = 500, 435
+DisplayTopOfScale =1
+#
+[56]
+displayType = HBareLEDBar
+DisplayChannel =3
+DisplaySize = 250
+DisplayPosition = 500, 455
+DisplayTopOfScale =1
+#
+[57]
+displayType = HBareLEDBar
+DisplayChannel =1
+DisplaySize = 250
+DisplayPosition = 500, 475
+DisplayTopOfScale =1
+#
+[58]
+displayType = HBareLEDBar
+DisplayChannel =2
+DisplaySize = 250
+DisplayPosition = 500, 495
+DisplayTopOfScale =1
+#
+[59]
+displayType = HBareLEDBar
+DisplayChannel =3
+DisplaySize = 250
+DisplayPosition = 500, 515
+DisplayTopOfScale =1
+#
+[60]
+displayType = HBareLEDBar
+DisplayChannel =3
+DisplaySize = 250
+DisplayPosition = 500, 535
+DisplayTopOfScale =1
+#
+[61]
+displayType = HBareLEDBar
+DisplayChannel =8
+DisplaySize = 250
+DisplayPosition = 500, 555
+DisplayTopOfScale =1
+#
+[62]
+displayType = HBareLEDBar
+DisplayChannel =3
+DisplaySize = 250
+DisplayPosition = 500, 575
+DisplayTopOfScale =1
+#
+[63]
+displayType = HBareLEDBar
+DisplayChannel =8
+DisplaySize = 250
+DisplayPosition = 500, 595
+DisplayTopOfScale =1
+#
+[64]
+displayType = HBareLEDBar
+DisplayChannel =7
+DisplaySize = 250
+DisplayPosition = 500, 615
+DisplayTopOfScale =1
+#
+[65]
+displayType = HBareLEDBar
+DisplayChannel =7
+DisplaySize = 250
+DisplayPosition = 500, 635
+DisplayTopOfScale =1
+#
+[66]
+displayType = Basic
+DisplayChannel =1
+DisplaySize = 250
+DisplayPosition = 15, 660
+DisplayTopOfScale =1
+#
+[67]
+displayType = Basic
+DisplayChannel =1
+DisplaySize = 250
+DisplayPosition = 500, 660
+DisplayTopOfScale =1
+

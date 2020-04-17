@@ -1,0 +1,7 @@
+# EIDE genearal parameters
+[EIDEProject]
+# Window size (Hor, Ver; pixels), title and background.
+windowSize = 1000, 800
+windowTitle = EIDE Project Display (MANUAL)
+windowBackground = windowBackground.png
+
