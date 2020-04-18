@@ -89,6 +89,6 @@ def simulacion():
             AEIDEG[i] = matriz[i][indice]
             AEIDEG[0] = velocidad.statistics[0]/100
         except IndexError:
-            print i, indice
+            print (i, indice)
 
     return AEIDEG

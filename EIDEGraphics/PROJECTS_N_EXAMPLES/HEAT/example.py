@@ -39,6 +39,6 @@ def simulacion():
         try:
             AEIDEG[i] = matriz[i][indice]
         except IndexError:
-            print i, indice
+            print (i, indice)
 
     return AEIDEG

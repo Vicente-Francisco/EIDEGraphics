@@ -1,8 +1,8 @@
-EIDEGraphics session intiated at Thu Apr 16 13:40:45 2020
+EIDEGraphics session intiated at Sat Apr 18 10:39:07 2020
 
 System parameters succesfully loaded
 
-Project: 480_320
+Project: QUADRANT
 Project parameters succesfully loaded
 
 EIDEChannelsManager module succesfully initiated
@@ -11,16 +11,14 @@ EIDEChannelsManager module succesfully initiated
 [Channels defined]
 Number	Title	Units	Gain	Zero	Warn. %	Alarm %	Format
 -------	-------	-------	-------	-------	-------	-------	-------
-1	T. Int.	C	1.0	0.0	70	85	0
-2	T. Ext.	C	0.5	0.0	0	0	0.0
-3	Cald.	C	0.5	0.0	20	50	0
-4	Panel	C	1.0	0.0	70	85	0
-5	Canal 5	C	1.0	0.0	70	85	0.0
-6	Boiler	Deg	1.0	0.0	70	85	0
+1	Canal 1	um	1.0	0.0	70	85	0.00
+2	Canal 2	K	1.0	0.0	0	0	0.0
+3	FPS	FPS	1.0	0.0	20	50	0.00
+4	Ciclo	mS	1.0	0.0	70	85	0.00
+5	Canal 1	C	1.0	0.0	70	85	0.0
+6	Canal 2	Esc	1.0	0.0	70	85	0
 7	FPS	FPS	1.0	0.0	70	85	0
-8	Ciclo	FPS	1.0	0.0	0	0	0.0
-9	Boiler	Deg	1.0	0.0	70	85	0.0
-10	RMS	RMS	1.0	0.0	0	0	0.0
+8	Ciclo	FPS	1.0	0.0	0	0	0
 
 
 
@@ -30,11 +28,15 @@ EIDEDisplaysManager module succesfully initiated
 [Displays defined]
 Ordinal	Top Sc.	Channel	Size	Pos. X	Pos. Y	Type
 -------	-------	-------	-------	-------	-------	-------
-1	80	1	356	30	34	Basic
-2	80	2	356	30	105	Basic
-3	80	3	356	30	176	Basic
-4	80	4	356	30	247	Basic
-5	80	1	231	140	43	HBareLEDBar
-6	80	2	231	140	114	HBareLEDBar
-7	80	3	231	140	185	HBareLEDBar
-8	80	4	231	140	256	HBareLEDBar
+1	1	1	250	15	15	quadrant
+2	1	2	250	280	15	quadrant
+3	1	3	250	545	15	quadrant
+4	1	4	250	810	15	quadrant
+5	1	5	250	15	280	quadrant
+6	1	6	250	280	280	quadrant
+7	1	7	250	545	280	quadrant
+8	1	8	250	810	280	quadrant
+9	1	6	250	15	545	quadrant
+10	1	5	250	280	545	quadrant
+11	1	6	250	545	545	quadrant
+12	1	1	400	810	545	quadrant

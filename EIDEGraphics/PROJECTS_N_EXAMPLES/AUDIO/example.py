@@ -36,7 +36,7 @@ def simulacion():
             AEIDEG[11] = AEIDEG[10]
 
         except IndexError:
-            print i, indice
+            print (i, indice)
 
     return AEIDEG
 
